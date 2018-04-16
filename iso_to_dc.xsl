@@ -41,16 +41,3 @@
 		
 	
 </xsl:stylesheet>
-
-
-<!--Getting keywords
-
-<xsl:variable name="keywords_input">
-				<xsl:value-of select="identificationInfo/MD_DataIdentification/descriptiveKeywords/MD_Keywords[type/MD_KeywordTypeCode[@codeListValue='theme']]/keyword/gco:CharacterString"/>
-			</xsl:variable>
-<xsl:for-each select="tokenize($keywords_input,',')">
-				<dcvalue element="subject" qualifier="none" language="en_US">
-					<xsl:value-of select="normalize-space(.)"/>
-				</dcvalue>
-			</xsl:for-each>
--->
