@@ -2,7 +2,7 @@
 
 Script to take packages including images files and NAP metadata and package for upload to DSpace via Batch Upload zip process. The incoming metadata files should be NAP ISO 19115 2003 .xml files. 
 
-Add the packages to the folder containing script and run get_contents.bat. The script creates a dc metadata file and a contents file.
+Add the packages to the folder containing script and run get_contents.bat. You'll need to edit get_contents.bat to point to the java.exe file on your computer. The script creates a dc metadata file and a contents file in the item folder.
 
 ## Procedure
 
