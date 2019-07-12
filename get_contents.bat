@@ -1,5 +1,3 @@
-:: You must replace the location of java.exe with the location on your computer.
-
 for d in */ ; do  
 	cd $d ;
 	ls -X > contents ; 
