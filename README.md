@@ -15,9 +15,9 @@ Add the packages to the folder containing script and run get_contents.bat. The s
 ## Crosswalk Used
 The crosswalk used for the NAP ISO 19115 2003 to Dublin Core conversion. Only a very small number of fields are crosswalked.
 
-a.	 /MD_Metadata/identificationInfo/MD_DataIdentification/citation/CI_Citation/title = dc.title
-b.	/MD_Metadata/identificationInfo/MD_DataIdentification/abstract = dc.description.abstract
-c.	/MD_Metadata/metadataConstraints/MD_Constraints/useLimitation = dc.rights
-d.	/MD_Metadata/identificationInfo/MD_DataIdentification/descriptiveKeywords/MD_Keywords/keyword = dc.subject
-e.	/MD_Metadata/identificationInfo/MD_DataIdentification/extent/EX_Extent/geographicElement/EX_GeographicBoundingBox/ = dc.coverage.box
+/MD_Metadata/identificationInfo/MD_DataIdentification/citation/CI_Citation/title = dc.title
+/MD_Metadata/identificationInfo/MD_DataIdentification/abstract = dc.description.abstract
+/MD_Metadata/metadataConstraints/MD_Constraints/useLimitation = dc.rights
+/MD_Metadata/identificationInfo/MD_DataIdentification/descriptiveKeywords/MD_Keywords/keyword = dc.subject
+/MD_Metadata/identificationInfo/MD_DataIdentification/extent/EX_Extent/geographicElement/EX_GeographicBoundingBox/ = dc.coverage.box
 
